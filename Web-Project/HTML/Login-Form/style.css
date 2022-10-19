@@ -57,4 +57,7 @@
     a{  
         float: right;  
         background-color: grey;  
-    }  
+    }
+    .password{
+          margin-right: 260px;
+        }
