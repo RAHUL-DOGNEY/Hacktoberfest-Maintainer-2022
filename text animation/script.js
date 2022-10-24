@@ -39,7 +39,7 @@ function doMorph() {
 
     setMorph(fraction);
 }
-
+/* Funtion defination */ 
 function setMorph(fraction) {
     elts.text2.style.filter = `blur(${Math.min(8 / fraction - 8, 100)}px)`;
     elts.text2.style.opacity = `${Math.pow(fraction, 0.4) * 100}%`;
